@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from tqdm import tqdm
 
-DATASET_PATH = "content/DeepPCB/PCBData"
+DATASET_PATH = "/content/DeepPCB/PCBData"
 OUTPUT_PATH = "PCBData_processed"
 
 os.makedirs(OUTPUT_PATH, exist_ok=True)
